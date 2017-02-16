@@ -4,12 +4,12 @@
 # 效果图
 这还是你熟悉的`ViewPager`么？
 
-![stack](https://github.com/fashare2015/StackPageTransformer/blob/master/screen-record/stack.gif)
+![stack](https://raw.githubusercontent.com/fashare2015/StackPageTransformer/master/screen-record/stack.gif)
 
 # 使用
 很简单就一个类 —— `StackPageTransformer`.
 
-没有打成jar包，使用时直接复制源码即可：![StackPageTransformer](https://github.com/fashare2015/StackPageTransformer/blob/master/page-transform/src/main/java/com/fashare/page_transform/StackPageTransformer.java)
+没有打成jar包，使用时直接复制源码即可：[StackPageTransformer](https://github.com/fashare2015/StackPageTransformer/blob/master/page-transform/src/main/java/com/fashare/page_transform/StackPageTransformer.java)
 ```java
 // 默认配置
 mViewPager.setPageTransformer(true, new StackPageTransformer(mViewPager));
@@ -29,4 +29,6 @@ mViewPager.setPageTransformer(true, new StackPageTransformer(mViewPager, 0.8f, 0
 还有一些渐变过渡的处理比较繁琐，有兴趣的话自行看代码吧.
 
 # 灵感来源
-![官方教程 —— Depth Page Transformer](http://hukai.me/android-training-course-in-chinese/animations/screen-slide.html)
+[官方教程 —— Depth Page Transformer](http://hukai.me/android-training-course-in-chinese/animations/screen-slide.html)
+
+
